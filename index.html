@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="王童菲的个人网站：前端与全栈开发，项目作品、实习经历与技术实践。"><title>王童菲 · 前端 / 全栈开发</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="header"><a class="brand" href="#home"><span class="brand-icon">拾</span>拾光<span class="brand-en">SHIGUANG</span></a><nav aria-label="主导航"><a href="#home" data-nav="home">首页</a><a href="#archive" data-nav="archive">归档</a><a href="#tags" data-nav="tags">标签</a><a href="#about" data-nav="about">关于</a></nav><div class="tools"><button id="search-open" aria-label="搜索文章"><svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg></button><span class="divider"></span><button id="theme" aria-label="切换深色模式">☾</button></div></header>
+<main id="app"></main>
+<footer><a class="footer-brand" href="#home">拾光 <span>把日子写成故事。</span></a><span>© <span id="year"></span> 拾光 · 保持好奇，慢慢生长</span><a href="#home">回到首页 ↗</a></footer>
+<dialog id="search-dialog"><div class="search-head"><label for="search-input">寻找一段文字</label><button id="search-close" aria-label="关闭搜索">✕</button></div><input id="search-input" placeholder="搜索文章、分类或标签…" autocomplete="off"><div id="search-results"></div></dialog>
+<link rel="stylesheet" href="glass.css"><link rel="stylesheet" href="bilingual.css">
+<style>
+.avatar,.brand-icon{background:center/cover no-repeat url('avatar.svg')!important;font-size:0!important;color:transparent!important}
+.avatar{width:78px;height:78px}
+.brand-icon{display:inline-block;width:36px;height:36px;padding:0;flex-shrink:0}
+.hero-orbit:before{content:''!important;background:center/cover no-repeat url('avatar.svg')!important}
+@media(max-width:650px){.hero-orbit{display:none!important}}
+</style>
+<script src="profile.js"></script><script src="main.js"></script><script src="i18n.js"></script>
+</body></html>
